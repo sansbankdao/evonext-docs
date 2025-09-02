@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: 'Yappr!',
+    title: 'Yappr! World',
     tagline: 'Free Your Inner Voice',
     favicon: 'img/favicon.ico',
 
