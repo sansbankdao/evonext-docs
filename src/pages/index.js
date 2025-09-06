@@ -26,7 +26,7 @@ function HomepageHeader() {
                         className="button button--secondary button--lg"
                         to="/docs/intro"
                     >
-                            Yappr! Tutorial - 5min ⏱️
+                            EvoNext Tutorial - 5min ⏱️
                     </Link>
                 </div>
             </div>

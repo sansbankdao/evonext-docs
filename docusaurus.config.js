@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: 'Yappr! World',
+    title: 'EvoNext',
     tagline: 'Free Your Inner Voice',
     favicon: 'img/favicon.ico',
 
@@ -78,9 +78,9 @@ const config = {
             // Replace with your project's social card
             image: 'img/docusaurus-social-card.jpg',
             navbar: {
-                title: 'Yappr! World',
+                title: 'EvoNext Docs',
                 logo: {
-                    alt: 'Yappr!',
+                    alt: 'EvoNext',
                     src: 'img/logo.svg',
                 },
                 items: [
@@ -88,12 +88,12 @@ const config = {
                         type: 'docSidebar',
                         sidebarId: 'tutorialSidebar',
                         position: 'left',
-                        label: 'Getting Started',
+                        label: 'Quick Start Guide',
                     },
                     // {to: '/blog', label: 'Blog', position: 'left'},
                     {
-                        href: 'https://github.com/sansbankdao/yappr-world',
-                        label: 'GitHub',
+                        href: 'https://yappr.world/roadmap',
+                        label: 'Roadmap',
                         position: 'right',
                     },
                 ],

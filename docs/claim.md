@@ -1,10 +1,10 @@
 ---
-sidebar_position: 1
+sidebar_position: 3
 ---
 
-# Welcome To EvoNext
+# Claim Your Username
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Let's register your username **in less than 5 minutes**.
 
 ## Getting Started
 
