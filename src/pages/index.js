@@ -40,7 +40,7 @@ export default function Home() {
     return (
         <Layout
             title={`${siteConfig.title} by Sansbank`}
-            description="Learn how to Free Your Inner Voice"
+            description="Learn how to by Fearless on Social Media"
         >
             <HomepageHeader />
 

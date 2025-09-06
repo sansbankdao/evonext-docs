@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# [] Safety & Security [] []
+# 🚨 Safety & Security 🛡️ 👀
 
 ALWAYS BE CAREFUL WITH YOUR 12/24 WORD SEED PHRASES
 
