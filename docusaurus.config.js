@@ -75,6 +75,11 @@ const config = {
                         label: 'Quick Start Guide',
                     },
                     {
+                        href: '/claim',
+                        label: 'Claim Username',
+                        position: 'right',
+                    },
+                    {
                         href: 'https://evonext.app/roadmap',
                         label: 'Roadmap',
                         position: 'right',
@@ -105,7 +110,7 @@ const config = {
                                 href: 'https://www.dash.org/forum/',
                             },
                             {
-                                label: 'X',
+                                label: '@EvoNextSocial on X',
                                 href: 'https://x.com/EvoNextSocial',
                             },
                         ],
