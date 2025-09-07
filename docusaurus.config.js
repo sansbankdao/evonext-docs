@@ -94,7 +94,7 @@ const config = {
                         items: [
                             {
                                 label: 'Quick Start Guide',
-                                to: '/intro',
+                                to: '/welcome',
                             },
                             {
                                 label: 'Claim Username',
