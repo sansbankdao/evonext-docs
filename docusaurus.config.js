@@ -93,8 +93,12 @@ const config = {
                         title: 'Docs',
                         items: [
                             {
-                                label: 'Tutorial',
+                                label: 'Quick Start Guide',
                                 to: '/intro',
+                            },
+                            {
+                                label: 'Claim Username',
+                                to: '/claim',
                             },
                         ],
                     },
