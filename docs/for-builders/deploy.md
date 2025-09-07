@@ -7,14 +7,16 @@ sidebar_position: 5
 
 ## Introduction
 
-Deploying your Evo App involves not only hosting your application but also ensuring it integrates seamlessly with the Dash Platform. This guide will walk you through the process of publishing a "Document" to a specific Dash Platform Data Contract, enabling your app to interact with the Dash ecosystem. The Data Contract in question is `6fBkKSne1xQ5GCPW9fdwEkH7nk8oYPu48vYiYssWzhX8`, which can be viewed [here](https://platform-explorer.com/dataContract/6fBkKSne1xQ5GCPW9fdwEkH7nk8oYPu48vYiYssWzhX8).
+Fortunately, deploying your Evo App __DOES NOT__ require any hosting or maintenance burdens by you or your team; but it's important to ensure it integrates seamlessly with the __Dash Platform Document Schema.__
+
+This guide will walk you through the process of publishing an Evo App (Document) to the EvoNext Data Contract, enabling your app to interact with the Dash ecosystem. The specific Data Contract in question is __`6fBkKSne1xQ5GCPW9fdwEkH7nk8oYPu48vYiYssWzhX8`__, which can be viewed [__here__](https://platform-explorer.com/dataContract/6fBkKSne1xQ5GCPW9fdwEkH7nk8oYPu48vYiYssWzhX8?tab=schema).
 
 
 ## Prerequisites
 
 Before you begin, ensure you have the following:
 
-- A deployed Evo App with a live URL.
+- A [__fully validated__](https://dashpay.io/) Evo App document schema.
 - Access to the Dash Platform and the necessary permissions to publish documents.
 - Basic understanding of JSON and API interactions.
 - Node.js and npm installed on your development machine.
