@@ -5,27 +5,25 @@ import styles from './styles.module.css'
 const FeatureList = [
     {
         title: 'Permissionless',
-        Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+        Svg: require('@site/static/img/permissionless.svg').default,
         description: (
             <>
-                Docusaurus was designed from the ground up to be easily installed and
-                used to get your website up and running quickly.
+                EvoNext is the 1ST social media platform with ZERO centralized entities that you MUST adhere to.
             </>
         ),
     },
     {
         title: 'Uncensored',
-        Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+        Svg: require('@site/static/img/uncensored.svg').default,
         description: (
             <>
-                Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-                ahead and move your docs into the <code>docs</code> directory.
+                It's technically impossible for ANY community members to be censored, in any way, by the Dash Evolution Platform powering the platform.
             </>
         ),
     },
     {
         title: 'Mini Apps',
-        Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+        Svg: require('@site/static/img/mini-apps.svg').default,
         description: (
             <>
                 Evo Apps are introducing the 1st uncensorable content platform.
