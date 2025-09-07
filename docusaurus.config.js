@@ -130,7 +130,7 @@ const config = {
                     },
                 ],
                 copyright:
-                    `Copyright &copy; ${new Date().getFullYear()} Sansbank DAO. Built with Docusaurus.`,
+                    `Copyright &copy; ${new Date().getFullYear()} Sansbank DAO.`,
             },
             prism: {
                 theme: prismThemes.github,
