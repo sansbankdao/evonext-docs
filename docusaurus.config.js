@@ -19,7 +19,7 @@ const config = {
         v4: true, // Improve compatibility with the upcoming Docusaurus v4
     },
 
-    url: 'https://docs.yappr.world',
+    url: 'https://docs.evonext.app',
     baseUrl: '/',
 
     // GitHub pages deployment config.
@@ -45,11 +45,10 @@ const config = {
             ({
                 docs: {
                     sidebarPath: './sidebars.js',
-                    // Please change this to your repo.
-                    // Remove this to remove the "edit this page" links.
-                    editUrl:
-                        'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+                    routeBasePath: '/', // This serves the docs at the site's root
+                    editUrl: 'https://github.com/sansbankdao/dashswap-docs',
                 },
+                blog: false,
                 theme: {
                     customCss: './src/css/custom.css',
                 },
@@ -76,7 +75,7 @@ const config = {
                         label: 'Quick Start Guide',
                     },
                     {
-                        href: 'https://yappr.world/roadmap',
+                        href: 'https://evonext.app/roadmap',
                         label: 'Roadmap',
                         position: 'right',
                     },
@@ -98,16 +97,16 @@ const config = {
                         title: 'Community',
                         items: [
                             {
-                                label: 'Stack Overflow',
-                                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                                label: 'Platform Explorer',
+                                href: 'https://platform-explorer.com/dataContract/6fBkKSne1xQ5GCPW9fdwEkH7nk8oYPu48vYiYssWzhX8',
                             },
                             {
-                                label: 'Discord',
-                                href: 'https://discordapp.com/invite/docusaurus',
+                                label: 'Dash Message Forum',
+                                href: 'https://www.dash.org/forum/',
                             },
                             {
                                 label: 'X',
-                                href: 'https://x.com/SansbankDAO',
+                                href: 'https://x.com/EvoNextSocial',
                             },
                         ],
                     },
@@ -120,7 +119,7 @@ const config = {
                             },
                             {
                                 label: 'GitHub',
-                                href: 'https://github.com/sansbankdao/yappr-world',
+                                href: 'https://github.com/sansbankdao/evonext-app',
                             },
                         ],
                     },

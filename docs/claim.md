@@ -2,22 +2,30 @@
 sidebar_position: 3
 ---
 
-# Claim Your Username
+# Claim Your Dash Username
 
-Let's register your username **in less than 5 minutes**.
+Dash Platform has introduced usernames — they are unique and FOREVER, so it's critical to register your OWN before its TAKEN! 😭
+
+_YES! the FOMO here is real!_
+
+Let's register your NEW Dash Platform username **IN LESS THAN 5 MINUTES**.
+
 
 ## Getting Started
 
-Get started by **creating a new site**.
+Get started by **creating a NEW Dash Platform Identity**.
 
 Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
 
 ### What you'll need
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+- [__Your 12/24 seed words__](https://www.coinbase.com/learn/wallet/what-is-a-seed-phrase) is all you need to Connect with EvoNext and get started with your Identity activities:
+  - Register a NEW Platform Identity
+  - Register a NEW Platform Username
+  - Register a NEW EvoNext Profile
 
-## Generate a new site
+
+## Identity + Username Registration
 
 Generate a new Docusaurus site using the **classic template**.
 
@@ -31,7 +39,8 @@ You can type this command into Command Prompt, Powershell, Terminal, or any othe
 
 The command also installs all necessary dependencies you need to run Docusaurus.
 
-## Start your site
+
+## Username Registration ONLY
 
 Run the development server:
 

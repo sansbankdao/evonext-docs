@@ -4,24 +4,25 @@ sidebar_position: 1
 
 # Welcome To EvoNext
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Let's discover **Why EvoNext? in less than 5 minutes**.
 
 ## Getting Started
 
-Get started by **creating a new site**.
+Get started by **creating a NEW Dash Platform Identity**.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Or **try EvoNext immediately** by signing in at **[EvoNext.app/connect](https://evonext.app/connect)**.
 
 ### What you'll need
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+- [Download DashPay](https://www.dash.org/download/) version 18.0 or above:
+  - When installing DashPay, you are recommended to KEEP YOUR SEED PHRASE SAFE.
 
-## Generate a new site
+## Generate a NEW Identity
 
-Generate a new Docusaurus site using the **classic template**.
+Generate a NEW Dash Platform Identity using the **application onboarding process**.
 
-The classic template will automatically be added to your project after you run the command:
+Your new Identity will be created immediately.
+Will automatically be added to your project after you run the command:
 
 ```bash
 npm init docusaurus@latest my-website classic
@@ -31,7 +32,7 @@ You can type this command into Command Prompt, Powershell, Terminal, or any othe
 
 The command also installs all necessary dependencies you need to run Docusaurus.
 
-## Start your site
+## Register a NEW Username
 
 Run the development server:
 
