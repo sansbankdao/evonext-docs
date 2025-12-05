@@ -1,4 +1,6 @@
 ---
+# docs/claim.md
+
 sidebar_position: 3
 ---
 
