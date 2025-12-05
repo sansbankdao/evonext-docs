@@ -1,4 +1,6 @@
 ---
+# src/pages/markdown-page.md
+
 title: Markdown page example
 ---
 
