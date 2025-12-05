@@ -114,4 +114,4 @@ Remember to disable this after use with`sudo swapoff /swapfile` if needed.
 
 ## Next Steps
 
-Now that you have evonext-desktop installed on your Raspberry Pi, you can explore its features and functionality. For more information on using the application, refer to the [User Guide](./user-guide.md).
+Now that you have evonext-desktop installed on your Raspberry Pi, you can explore its features and functionality. For more information on using the application, refer to the [User Guide](/guide/intro.md).
