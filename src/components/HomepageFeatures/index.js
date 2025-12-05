@@ -10,27 +10,25 @@ const FeatureList = [
         Svg: require('@site/static/img/permissionless.svg').default,
         description: (
             <>
-                EvoNext is the 1ST social media platform with ZERO centralized entities that you MUST adhere to.
+                EvoNext is the first truly permissionless social platform where your identity and content are permanently yours on the Dash Platform.
             </>
         ),
     },
     {
-        title: 'Uncensored',
+        title: 'Uncensorable',
         Svg: require('@site/static/img/uncensored.svg').default,
         description: (
             <>
-                It's technically impossible for ANY community members to be censored, in any way, by the Dash Evolution Platform powering the platform.
+                Built on decentralized technology, it's technically impossible for your content or identity to be censored or removed by any centralized entity.
             </>
         ),
     },
     {
-        title: 'Mini Apps',
+        title: 'EvoApps',
         Svg: require('@site/static/img/mini-apps.svg').default,
         description: (
             <>
-                Evo Apps are introducing the 1st uncensorable content platform.
-                Extend or customize your website layout by reusing React. Docusaurus can
-                be extended while reusing the same header and footer.
+                Experience powerful mini-applications within EvoNext that extend functionality while maintaining the principles of decentralization and user ownership.
             </>
         ),
     },
@@ -46,6 +44,9 @@ function Feature({Svg, title, description}) {
             <div className="text--center padding-horiz--md">
                 <Heading as="h3">{title}</Heading>
                 <p>{description}</p>
+                <button className="button button--primary button--sm">
+                    Learn More
+                </button>
             </div>
         </div>
     )
@@ -55,6 +56,16 @@ export default function HomepageFeatures() {
     return (
         <section className={styles.features}>
             <div className="container">
+                <div className="row">
+                    <div className="col col--12 text--center padding-bottom--lg">
+                        <Heading as="h2">
+                            Why Choose EvoNext?
+                        </Heading>
+                        <p className="text--center padding-horiz--md">
+                            Experience a new paradigm in social networking where you own your digital identity, control your content, and participate in a truly decentralized ecosystem.
+                        </p>
+                    </div>
+                </div>
                 <div className="row">
                     {FeatureList.map((props, idx) => (
                         <Feature key={idx} {...props} />
