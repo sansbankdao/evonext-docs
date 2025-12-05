@@ -28,3 +28,91 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* Custom styles for enhanced MDX components */
+
+/* Icon Grid Component */
+.icon-grid {
+  display: grid;
+  gap: var(--ifm-spacing-vertical);
+  margin: var(--ifm-spacing-vertical) 0;
+}
+
+.icon-grid.grid-cols-1 {
+  grid-template-columns: 1fr;
+}
+
+.icon-grid.grid-cols-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.icon-grid.grid-cols-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.icon-grid.grid-cols-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* Icon Card Component */
+.icon-card {
+  padding: var(--ifm-spacing-large);
+  border-radius: var(--ifm-border-radius);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  background-color: var(--ifm-background-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: all var(--ifm-transition-fast) ease;
+}
+
+.icon-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--ifm-global-shadow-lw);
+  border-color: var(--ifm-color-primary);
+}
+
+.icon-card .icon {
+  font-size: 2.5rem;
+  margin-bottom: var(--ifm-spacing-vertical);
+  line-height: 1;
+}
+
+.icon-card h3 {
+  margin-top: 0;
+  margin-bottom: var(--ifm-spacing-vertical);
+  color: var(--ifm-color-primary);
+}
+
+.icon-card p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* Responsive breakpoints for grid */
+@media screen and (max-width: 996px) {
+  .icon-grid.grid-cols-3,
+  .icon-grid.grid-cols-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .icon-grid.grid-cols-2,
+  .icon-grid.grid-cols-3,
+  .icon-grid.grid-cols-4 {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Card hover effects */
+.icon-card:hover {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* If you prefer a subtle hover effect for dark theme */
+[data-theme='dark'] .icon-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
